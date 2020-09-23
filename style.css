@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+html, body {
+    height: 100%;
+    background-color: #be6a15;
+}
+
+/* Header */
+
+.wrapper .bar {
+    
+}
+.header {
+    display: flex;
+    background-color: #ac3f21;
+}
+.header img {
+    border-radius: 25%;
+    margin: 10px 0 10px 40px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.header #name {
+    margin: 30px 0 30px 10px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.header #nme {
+    color: #fff;
+}
+
+.abt, .cnt {
+    display: none;;
+}
+
+/* Content area */
+.content {
+    min-height: 100%;
+}
+.content .status {
+    font-size: small;
+    opacity: 0.8;
+    margin: 20px 40px 20px 20px;
+}
+
+.content ,.work {
+    margin: 0 40px 0 20px;
+    font-size: 25px;
+}
+
+.content #intro {
+    display: block;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.content .reach {
+    background-color: turquoise;
+    width: fit-content;
+    padding: 10px;
+    margin: 30px 40px 0 20px;
+    border-radius: 10px;
+}
+
+.content .pjts {
+    background-color: rgb(204, 32, 55);
+    width: fit-content;
+    padding: 10px;
+    margin: 30px 40px 0 20px;
+    border-radius: 10px;
+}
+
+.content .site {
+    background-color: rgb(7, 241, 38);
+    width: fit-content;
+    padding: 10px;
+    margin: 30px 40px 0 20px;
+    border-radius: 10px;
+}
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.footer img {
+    padding: 20px;
+}
+
+.cpryt p{
+    text-align: center;
+    align-content: center;
+}
