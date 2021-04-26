@@ -1,0 +1,14 @@
+.wrapper .content {
+    font-size: 18px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 400px 2fr;
+}
+
+.wrapper .content img {
+    border-radius: 8px;
+}
+
+.wrapper .content .text {
+    text-align: left;
+}
