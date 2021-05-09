@@ -1,0 +1,19 @@
+.content form .details {
+    padding-bottom: 15px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 8px;
+    border: 0px;
+    background-color: rgb(39, 128, 245);
+    font-size: large;
+    color: #000;
+}
+
+#reset {
+    background-color: rgb(48, 116, 48);
+}
+button:hover {
+    color: #fff;
+}
